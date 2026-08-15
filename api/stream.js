@@ -4,7 +4,7 @@ export const config = {
 
 export default async function handler(req) {
   // الرابط الجديد
-  const streamUrl = "https://dc5.serverse.com/proxy/pbmhbvxs/stream";
+  const streamUrl = "http://dc5.serverse.com/proxy/pbmhbvxs/stream";
 
   try {
     const response = await fetch(streamUrl, {
